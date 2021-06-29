@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Armand HOUPIN</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!--<div class="navigation">
+		<div class="banner">
+			<img src="banner.jpg" class="cover">
+		</div>
+		<div class="navlink">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>-->
+
+	<section class="sec">
+		
+		<div class="imgBx">
+			<img src="accueil3.jpg" class="cover">
+		</div>
+		<div class="content">
+			<h2> Bienvenue , je suis <br> <span> Armand Houpin</span></h2>
+			<p> Je vous souhaite un bon voyage sur mon site web</p>
+			<a href="#" class="btn">Découvrir le CV</a>
+			<a href="#" class="btn">Découvrir le Portfolio</a>
+		</div>
+
+		<footer>
+			<ul class="sci">
+				<li><a href="#"><img src="github.png"></a></li>
+				<li><a href="#"><img src="linkedin.png"></a></li>
+			</ul>
+			<p class="copyrightText">©2021 Armand HOUPIN</p>
+		</footer>
+	</section>
+
+	<script>
+		let menuToggle = document.querySelector('.toggle');
+		//let navigation = document.querySelector('.navigation');
+		let sec = document.querySelector('.sec');
+		menuToggle.onclick = function(){
+			menuToggle.classList.toggle('active')
+			//navigation.classList.toggle('active')
+			sec.classList.toggle('active')
+		}
+	</script>
+</body>
+</html>
